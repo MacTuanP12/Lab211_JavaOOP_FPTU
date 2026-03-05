@@ -59,7 +59,7 @@ public class Management {
         }
     }
 
-  
+
     public boolean addWorker(Worker worker) throws Exception {
         if (worker == null) {
             throw new Exception("Data does not exist");
